@@ -1,7 +1,17 @@
 import React from "react";
 
-function App() {
-  return <div className="App">hello</div>;
+import { Cards, Chart, Country } from "./components";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Cards />
+        <Country />
+        <Chart />
+      </div>
+    );
+  }
 }
 
 export default App;
