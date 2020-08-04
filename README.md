@@ -7,3 +7,6 @@
 ## React
 ## react-chartjs-2
 ## react-countup
+
+## API
+https://covid19.mathdro.id/api
